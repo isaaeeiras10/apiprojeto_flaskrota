@@ -12,3 +12,6 @@ Tutorial de instalação do Python
 2. Com o instalador aberto tenha certeza de marcar a opção "Add Python 3.8 to PATH" para que o comando fique atribuido.
 3. Clique em "Install now" e siga em frente o processo de instalação de programa no Windows (next, next, next, finish).
 
+
+O Vitualenv uma ferramenta essencial para o desenvolvimento em Python 
+permitindo a criação e gerenciamento de ambientes virtuais isolados para cada projeto.
