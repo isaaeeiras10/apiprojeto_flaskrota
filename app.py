@@ -27,7 +27,7 @@ def maisde2000():
 
 @app.route("/tresmaioressalarios")
 def tresmaioressalarios():
-    return jsonify(maior_salario(pessoas))
+    return jsonify(maior_salario(pessoas, maior=None))
 
 @app.route("/mediasalarialprofissao")
 def mediasalarialprofissao():
@@ -35,7 +35,7 @@ def mediasalarialprofissao():
 
 @app.route("/maior2000sexo")
 def maior2000sexo():
-    return jsonify(maior_2000_sexo(pessoas))
+    return jsonify(maior_2000_sexo(pessoas, sexo='Masculino'), maior_2000_sexo(pessoas, sexo='Feminino'))
 
 if __name__ == '__main__':
     app.run(debug=True)
